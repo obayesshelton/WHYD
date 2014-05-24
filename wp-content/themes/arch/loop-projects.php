@@ -28,11 +28,9 @@
 				</a>
 			</div>
 			<div class="project-details">
-				<!--<h3><a href="<?php the_permalink(); ?>" class="<?php if(get_option('arch_project_hover_link')=="Lightbox") { echo "frame"; } ?>"><?php the_title(); ?></a></h3>
-				<span><?php echo get_the_term_list( $post->ID, 'project_categories', ' ', ', ', '' ); ?></span>-->
-            	<h2>Montauk House</h2>
+            	<h3><a href="<?php the_permalink(); ?>" class="<?php if(get_option('arch_project_hover_link')=="Lightbox") { echo "frame"; } ?>"><?php the_title(); ?></a></h3>
             	<div class="meta-data">
-                	<p>Long Island, USA<br>2009 – 2013</p>
+                	<?php echo get_the_term_list( $post->ID, 'project_categories', ' ', ', ', '' ); ?>
 				</div>
 			</div>
 		</div>
