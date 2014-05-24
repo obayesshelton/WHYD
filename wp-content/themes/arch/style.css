@@ -326,3 +326,4 @@ blockquote.right { margin-left:20px; text-align:left; margin-right:0; width:30%;
 OVERRIDES STYLES
 ****************************/
 .project-info { background: #FFF; padding: 10px; width: 45%; float: left; margin-right: 50px;}
+.slides img { width: 100%; }
