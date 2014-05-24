@@ -6,22 +6,10 @@
 			<div class="link-hover">
 				<a href="<?php the_permalink(); ?>" class="<?php if(get_option('arch_project_hover_link')=="Lightbox") { echo "frame"; } ?>">
 					<?php
-						if ( post_password_required() ) {
-							?>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/password-protect.jpg" alt="" title="" />
-							<?php
+						if ( has_post_thumbnail() ) {
+							the_post_thumbnail('portfolio-medium', array('title' => ''.get_the_title().''));
 						}else {
-							if ( has_post_thumbnail() ) {
-								the_post_thumbnail('portfolio-medium', array('title' => ''.get_the_title().''));
-							}else {
-								?><img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="" title="" /><?php
-							}
-						}
-
-						if ( get_post_meta( $post->ID, "video", true ) ) {
-							?><div class="blog-hover"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/video.png" alt="" title="" /></div><?php
-						}else {
-							?><div class="blog-hover"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/link.png" alt="" title="" /></div><?php
+							?><img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" alt="" title="" /><?php
 						}
 					?>
 
