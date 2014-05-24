@@ -48,4 +48,7 @@
 
 		</div>
 
+		<br class="clear"/>
+		<br class="clear"/>
+
 <?php get_footer(); ?>
