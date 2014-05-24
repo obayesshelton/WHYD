@@ -1,3 +1,5 @@
+<?php get_header(); ?>
+
 <div id="content-col" class="supercol col right col-f-537">
       <div class="col-inner lh-adjust">
         <div class="works-post">
@@ -25,3 +27,5 @@
 				</div>
       <div id="no-results" style="display: none;">No results</div></div>
     </div>
+
+<?php get_footer(); ?>
