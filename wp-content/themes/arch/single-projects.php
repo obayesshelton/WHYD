@@ -66,6 +66,8 @@
 										<ul class="flex-direction-nav">
 											<li><a class="flex-prev" href="#">Previous</a></li>
 											<li><a class="flex-next" href="#">Next</a></li>
+										</ul>
+										<ul>
 											<li><a class="grow-projects-images">Grow</a></li>
 										</ul>
 									</div>
