@@ -69,7 +69,7 @@ GLOBAL STYLES
 ****************************/
 
 .clear:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
-#container { width:100%; min-height:100%; position:relative; }
+#container { width:100%; min-height:100%; position:relative; margin-bottom: 50px; }
 header { background:#FFF; width: 980px; margin: 0 auto; padding:20px 0 0 0; }
 .logo { margin-top:30px; float:left; margin-left:1.5%; }
 nav { float:left; margin-top:-20px; }
@@ -328,4 +328,3 @@ OVERRIDES STYLES
 .project-info { background: #FFF; padding: 10px; width: 45%; float: left; margin: 0 50px 0 0;}
 .project-info-grown { width: 100%;}
 .slides img { width: 100%; }
-footer { display: block; margin: 50px 0 0 0;}
