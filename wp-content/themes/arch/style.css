@@ -327,4 +327,5 @@ OVERRIDES STYLES
 ****************************/
 .project-info { background: #FFF; padding: 10px; width: 45%; float: left; margin: 0 50px 0 0;}
 .project-info-grown { width: 100%;}
+.project-info-grown:last-child { width: 100%; margin-top: 50px;}
 .slides img { width: 100%; }
