@@ -18,6 +18,8 @@
 
 								<div class="project-info">
 
+									<button class="grow-projects-images">Grow</button>
+
 									<div class="portfolio-flexslider">
 										<ul class="slides">
 											<?php
@@ -66,9 +68,6 @@
 										<ul class="flex-direction-nav">
 											<li><a class="flex-prev" href="#">Previous</a></li>
 											<li><a class="flex-next" href="#">Next</a></li>
-										</ul>
-										<ul>
-											<li><a class="grow-projects-images">Grow</a></li>
 										</ul>
 									</div>
 
