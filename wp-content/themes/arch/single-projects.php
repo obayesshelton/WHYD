@@ -16,12 +16,6 @@
 
 								<br class="clear"/>
 
-								<div class="project-info">
-
-									<?php the_content(); ?>
-
-								</div>
-
 								<div class="project-info" style="margin-right: 0px;">
 
 									<button class="grow-projects-images">Grow</button>
@@ -76,6 +70,12 @@
 											<li><a class="flex-next" href="#">Next</a></li>
 										</ul>
 									</div>
+
+								</div>
+
+								<div class="project-info">
+
+									<?php the_content(); ?>
 
 								</div>
 
