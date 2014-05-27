@@ -92,6 +92,7 @@
 			}
 		?>
 
+		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/flexslider/jquery.flexslider-min.js"></script>
 		<script type="text/javascript" src="<?php echo plugins_url(); ?>/typo-shortcodes/js/toggle/jquery.toggle.js"></script>
 		<script type="text/javascript" src="<?php echo plugins_url(); ?>/typo-shortcodes/js/tabs/jquery.tabs.js"></script>
