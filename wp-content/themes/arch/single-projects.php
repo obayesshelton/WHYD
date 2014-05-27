@@ -16,7 +16,7 @@
 
 								<br class="clear"/>
 
-								<div class="project-info" style="margin-right: 0px;">
+								<div class="project-info">
 
 									<button class="grow-projects-images">Grow</button>
 
@@ -73,7 +73,7 @@
 
 								</div>
 
-								<div class="project-info">
+								<div class="project-info" style="margin-right: 0px;">
 
 									<?php the_content(); ?>
 
