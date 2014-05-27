@@ -24,6 +24,8 @@
 
 								<div class="project-info" style="margin-right: 0px;">
 
+									<button class="grow-projects-images">Grow</button>
+
 									<div class="portfolio-flexslider">
 										<ul class="slides">
 											<?php
