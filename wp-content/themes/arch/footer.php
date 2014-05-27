@@ -1,6 +1,10 @@
 
 	</div>
 
+<footer>
+		2014
+</footer>
+
 <script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/flexslider/jquery.flexslider-min.js"></script>
