@@ -1,4 +1,4 @@
-$('.grow-projects-images').on('click', function(){
+$('.portfolio-flexslider').on('click', function(){
 
     $(this).parent().toggleClass('project-info-grown');
 
