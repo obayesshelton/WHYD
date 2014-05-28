@@ -69,12 +69,12 @@ GLOBAL STYLES
 ****************************/
 
 .clear:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
-#container { width:100%; min-height:100%; position:relative; margin-bottom: 50px; }
-header { background:#FFF; width: 980px; margin: 0 auto; padding:20px 0 0 0; }
+#container { width:100%; min-height:100%; position:relative; }
+header { background:#FFF; width:100%; padding:20px 0 0 0; }
 .logo { margin-top:30px; float:left; margin-left:1.5%; }
 nav { float:left; margin-top:-20px; }
 .menu ul li { float:left; margin-right:1px; }
-.menu ul li a:link, .menu ul li a:visited { padding: 42px 70px 42px 20px; background:#F0F0F0; font:14px 'Open Sans', sans-serif; color:#797979; }
+.menu ul li a:link, .menu ul li a:visited { padding:100px 70px 30px 20px; background:#F0F0F0; font:14px 'Open Sans', sans-serif; color:#797979; }
 .menu ul li a:hover { background:#ececec; }
 .menu ul li.current_page_item a, .menu ul li.current-menu-ancestor a { background:#EAEAEA; color:#565656; }
 footer { background:#3D3D3D; padding:20px 0; width:100%; height:38px; position:absolute; bottom:0; left:0; }
@@ -95,7 +95,7 @@ LAYOUT
 
 h2.ptitle { background:#ff7c12; background:rgba(255,124,18,0.8); color:#FFF; font:300 24px 'Open Sans', sans-serif; padding:25px 30px; display:inline-block; margin-bottom:50px; }
 .select-menu { display:none; }
-.inside { width:964px; margin:0 auto; }
+.inside { width:980px; margin:0 auto; }
 .page-content { margin-top:50px; }
 .services ul, .team-list, .theme-pages, .left-content { background:#FFF; padding:30px; margin-bottom:40px; font-size:13px; color:#6d6d6d; }
 .services ul li { float:left; margin-right:25px; width:290px; }
@@ -211,7 +211,7 @@ a.kreading span { background:url('img/barrow.png') no-repeat; margin-left:20px; 
 .search-error { color:#FF0000; padding-bottom:20px; }
 
 .projects { float:left; margin-right:20px; margin-bottom:50px; width:294px; }
-.project-page { width:100%; }
+.project-page { width:100%; background:#FFF; }
 .project-list { padding:30px 30px 0 30px; }
 .project-list div:last-child { margin-right:0; }
 .project-details, .project-details-single { background:#F8F8F8; padding:15px 20px; font-size:13px; }
