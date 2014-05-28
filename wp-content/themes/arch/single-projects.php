@@ -18,8 +18,6 @@
 
 								<div class="project-info">
 
-									<button class="grow-projects-images">Grow</button>
-
 									<div class="portfolio-flexslider">
 										<ul class="slides">
 											<?php
