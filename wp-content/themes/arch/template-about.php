@@ -10,7 +10,7 @@ Template Name: About
 
 		<div class="page-content">
 
-			<h2 class="ptitle"><?php get_theme_page_title(); ?></h2>
+			<?php get_theme_page_title(); ?>
 
 			<div class="team-list clear">
 
