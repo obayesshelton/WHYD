@@ -161,7 +161,7 @@ a.kreading span { background:url('img/barrow.png') no-repeat; margin-left:20px; 
 #respond p { margin-bottom:0 !important; }
 .wpcf7-not-valid-tip { display:none !important; }
 #respond ul li input.wpcf7-not-valid, #respond ul li textarea.wpcf7-not-valid { border:1px solid #FF0000; }
-#respond input[type='submit'] { padding:15px 40px !important; cursor:pointer; font:600 16px 'Open sans', sans-serif; background:#FF9C00; color:#FFF; }
+#respond input[type='submit'] { padding:15px 40px !important; cursor:pointer; font:600 16px 'Open sans', sans-serif; background:#4781a8; color:#FFF; }
 .wpcf7-response-output { width:380px; margin-bottom:0 !important; }
 .single #respond h3, .single .comments h3 { font:18px 'Open Sans', sans-serif; color:#4e5458; margin-bottom:40px; }
 .single span.picon { position:relative; top:6px; margin-right:20px; }
@@ -236,7 +236,7 @@ a.kreading span { background:url('img/barrow.png') no-repeat; margin-left:20px; 
 
 .pagination-more { text-align:center; }
 .pagination-span a:link, .pagination-span a:visited {
-    padding:20px 30px 20px 60px; background:#FF9C00 url('img/arrow-circle.png') no-repeat 20px 17px; color:#FFF; font:18px 'Open Sans', sans-serif; display:inline-block;
+    padding:20px 30px 20px 60px; background:#4781a8 url('img/arrow-circle.png') no-repeat 20px 17px; color:#FFF; font:18px 'Open Sans', sans-serif; display:inline-block;
 }
 .pagination-span a:hover, a.visit:hover { background-color:#ea9106; }
 .resize, .alignright, .alignleft, .aligncenter, .alignnone { margin-bottom:20px !important; max-width:100%; height:auto; }
@@ -276,7 +276,7 @@ SIDEBAR + WIDGETS
 .widget_search input[type='text'], .newsletter input[type='text'],
 .protected input[type='password'] { border:1px solid #E6E6E6; font:13px 'Open Sans', sans-serif; padding:15px; width:135px; }
 .widget_search input[type='submit'], .newsletter input[type='submit'], .protected input[type='submit'] {
-    background:#FF9C00; color:#FFF; font:14px 'Open Sans', sans-serif; padding:14px 15px 14px; cursor:pointer; margin-left:-6px;
+    background:#4781a8; color:#FFF; font:14px 'Open Sans', sans-serif; padding:14px 15px 14px; cursor:pointer; margin-left:-6px;
 }
 .widget_search p { margin-bottom:0; }
 .textwidget, .newsletter { padding:15px 20px; }
