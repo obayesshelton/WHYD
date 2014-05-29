@@ -63,7 +63,7 @@
 
 				<ul class="affiliates">
 					<li><a href=""><img src="/wp-content/uploads/2014/05/13246.png"/></a></li>
-					<li><a href=""><img src="/wp-content/uploads/2014/05/13638.png"/></a></li>
+					<li><a href=""><img src="/wp-content/uploads/2014/05/13638.jpg"/></a></li>
 					<li><a href=""><img src="/wp-content/uploads/2014/05/13242.png"/></a></li>
 					<li><a href=""><img src="/wp-content/uploads/2014/05/13238.png"/></a></li>
 				</ul>

@@ -330,3 +330,4 @@ OVERRIDES STYLES
 .slides img { width: 100%; }
 .affiliates { list-style: none; margin: 0 auto;}
 .affiliates li { list-style: none; margin: 0 auto; width: 121px; float: left;}
+.affiliates li img { width: 121px; height: 100px; }
