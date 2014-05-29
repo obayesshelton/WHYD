@@ -143,7 +143,7 @@ a.kreading span { background:url('img/barrow.png') no-repeat; margin-left:20px; 
 #map { display:block; height:490px !important; width:100% !important; }
 .contact-desc { float:left; width:502px; }
 .cpage { background:#FFF; }
-.cpage #respond { float:left; padding:25px; margin-bottom:0; margin-left: 25px; }
+.cpage #respond { float:left; padding:25px; margin-bottom:0; }
 .cpage #respond textarea { width:400px !important; height:201px !important; }
 .cpage #respond input[type='text'], .cpage #respond input[type='email'] { width:175px !important; }
 .cpage .contact-desc iframe { margin-bottom:0 !important; }
