@@ -93,7 +93,7 @@ footer { background:#3D3D3D; padding:20px 0; width:100%; height:38px; position:a
 LAYOUT
 ****************************/
 
-h2.ptitle { background:#ff7c12; background:rgba(255,124,18,0.8); color:#FFF; font:300 24px 'Open Sans', sans-serif; padding:25px 30px; display:inline-block; margin-bottom:50px; }
+h2.ptitle { background:#4781a8; background:rgba(71,128,166,0.8); color:#FFF; font:300 24px 'Open Sans', sans-serif; padding:25px 30px; display:inline-block; margin-bottom:50px; }
 .select-menu { display:none; }
 .inside { width:980px; margin:0 auto; }
 .page-content { margin-top:50px; }
@@ -121,7 +121,7 @@ h2.ptitle { background:#ff7c12; background:rgba(255,124,18,0.8); color:#FFF; fon
 .page-template-template-projects-php .blog-details span { margin-bottom:0; }
 .post { margin-right:0; margin-bottom:19px; }
 .image-hover { position:relative; }
-a.kreading:link, a.kreading:visited { position:absolute; bottom:0; right:0; background:#FF7C12; color:#FFF; padding:10px 20px; display:inline-block; }
+a.kreading:link, a.kreading:visited { position:absolute; bottom:0; right:0; background:#4781a8; color:#FFF; padding:10px 20px; display:inline-block; }
 a.kreading:hover { background:#ec6f09; }
 a.kreading span { background:url('img/barrow.png') no-repeat; margin-left:20px; display:block; width:12px; height:5px; float:right; margin-top:10px; }
 
@@ -298,8 +298,8 @@ PAGINATION
 .page-numbers li a, .alignleft a:link, .alignleft a:visited, .alignright a:link, .alignright a:visited, span.prev a, span.next a {
     color:#FFF; font:700 12px 'Open Sans', sans-serif; padding:15px 20px; background: #D4D2D2; display:block;
 }
-.page-numbers li a:hover, .alignleft a:hover, .alignright a:hover, span.prev a:hover, span.next a:hover { background:#FF7C12; }
-span.current { color:#FFF; font:700 12px 'Open Sans', sans-serif; padding:15px 20px; background:#FF7C12; display:block; }
+.page-numbers li a:hover, .alignleft a:hover, .alignright a:hover, span.prev a:hover, span.next a:hover { background:#4781a8; }
+span.current { color:#FFF; font:700 12px 'Open Sans', sans-serif; padding:15px 20px; background:#4781a8; display:block; }
 
 
 /****************************
