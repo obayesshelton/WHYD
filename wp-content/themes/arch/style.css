@@ -85,7 +85,7 @@ footer { background:#3D3D3D; padding:20px 0; width:100%; height:38px; position:a
 .socials ul li a:link, .socials ul li a:visited { background:#454545; padding:25px 20px 37px 20px; }
 .socials ul li a:hover { background:#414141; }
 .socials ul li a img { opacity:0.5; }
-.header-widget { float:right; width:20%; margin-right:5%; margin-top: -10px; }
+.header-widget { float:right; width:20%; margin-right:5%; margin-top: 10px; }
 .header-widget h5 { color:#474747; text-transform:uppercase; font:700 14px 'Open Sans', sans-serif; }
 
 
