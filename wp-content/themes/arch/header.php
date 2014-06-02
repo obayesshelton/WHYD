@@ -27,6 +27,8 @@
 <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
+<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+
 <body <?php $class=''; body_class( $class ); ?>>
 
 	<!--CONTAINER-->
