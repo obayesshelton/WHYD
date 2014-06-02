@@ -325,7 +325,7 @@ blockquote.right { margin-left:20px; text-align:left; margin-right:0; width:30%;
 /****************************
 OVERRIDES STYLES
 ****************************/
-.project-info { background: #FFF; padding: 10px; width: 45%; float: left; margin: 0 56px 0 0;}
+.project-info { background: #FFF; padding: 30px; width: 41%; float: left; margin: 0 56px 0 0;}
 .project-info-grown { width: 98%; margin: 0 0 50px 0;}
 .slides img { width: 100%; }
 .affiliates { list-style: none; margin: 0 auto; margin-top: 30px;}
