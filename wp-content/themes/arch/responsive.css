@@ -4,7 +4,7 @@ LAPTOP SCREEN
 
 @media only screen and (max-width: 1600px) {
 	.header-widget { margin-right:3%; width:19%; }
-	.menu ul li a:link, .menu ul li a:visited { padding-right:60px; }
+	.menu ul li a:link, .menu ul li a:visited { padding-right:39px; }
 	nav { margin-left:40px; }
 }
 
@@ -27,8 +27,8 @@ IPAD PORTRAIT (768x1024)
 ********************************/
 
 @media only screen and (max-width: 960px) {
-	.select-menu { display:block; border:1px solid #E6E6E6; float:right; margin-top:20px; 
-		width:250px; font:13px 'Open Sans', sans-serif; 
+	.select-menu { display:block; border:1px solid #E6E6E6; float:right; margin-top:20px;
+		width:250px; font:13px 'Open Sans', sans-serif;
 	}
 	header nav { display:none; }
 	.inside { width:665px; }
@@ -81,7 +81,7 @@ IPHONE 4-4S-5 LANDSCAPE (568x320)
 	.single-blog img.wp-post-image { max-width:353px; height:auto; }
 	.single-blog iframe { width:293px; height:200px; }
 	.single-blog .video-js { width:293px !important; height:200px !important; }
-	#respond input[type="text"], #respond textarea, 
+	#respond input[type="text"], #respond textarea,
 	.children li #respond input[type="text"], .comments ul li #respond input[type="text"],
 	.children li #respond textarea, .comments ul li #respond textarea { width:267px !important; }
 	#respond ul li.last { margin-bottom:20px !important; }
@@ -99,7 +99,7 @@ IPHONE 4-4S-5 LANDSCAPE (568x320)
 	.cat-list li:last-child a { border-right:1px solid #E4E4E4 !important; }*/
 	.cpage #respond { width:302px; }
 	.cpage #respond input[type="text"], .cpage #respond textarea { width:276px !important; }
-	
+
 	.cat-toogles { display:none; }
 	/*.cat-toogles { position:relative; right:0; margin-bottom:20px; }*/
 	#fancybox-frame, #fancybox-content, #fancybox-wrap, #fancybox-outer { width:353px !important; height:218px; }
@@ -131,7 +131,7 @@ IPHONE 4-4S-5 PORTRAIT (320x568)
 	.single-blog img.wp-post-image { max-width:250px; }
 	.single-blog iframe { width:190px; height:150px; }
 	.single-blog .video-js { width:190px !important; height:150px !important; }
-	#respond input[type="text"], #respond textarea, .children li #respond input[type="text"], 
+	#respond input[type="text"], #respond textarea, .children li #respond input[type="text"],
 	.comments ul li #respond input[type="text"], .children li #respond textarea, .comments ul li #respond textarea { width:163px !important; }
 	.comment-details { width:190px; margin-top:15px; }
 	.children .parent { margin-left:15px; }
