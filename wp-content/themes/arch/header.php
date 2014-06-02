@@ -59,15 +59,16 @@
 				<div class="smenu"><select class="select-menu">&nbsp;</select></div>
 			</section>
 
-			<!--<div class="header-widget">
-
-				<ul class="affiliates">
-					<li><a href="http://www.superyachtuk.com/" target="_blank"><img src="/wp-content/uploads/2014/06/superyacht.png"/></a></li>
-					<li><a href="http://www.britishmarine.co.uk/" target="_blank"><img src="/wp-content/uploads/2014/06/mta.png"/></a></li>
-					<li><a href="http://www.britishmarine.co.uk/" target="_blank"><img src="/wp-content/uploads/2014/06/bmf.png"/></a></li>
-				</ul>
-
-			</div>-->
+			<?php
+				if(get_option('arch_header_widget')!="true") {
+					?>
+					<!--HEADER WIDGET-->
+					<div class="header-widget">
+						<?php get_sidebar( 'header' ); ?>
+					</div>
+					<?php
+				}
+			?>
 
 		</header>
 
