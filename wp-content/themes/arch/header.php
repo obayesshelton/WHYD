@@ -27,8 +27,6 @@
 <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
-
 <body <?php $class=''; body_class( $class ); ?>>
 
 	<!--CONTAINER-->
@@ -65,6 +63,7 @@
 				if(get_option('arch_header_widget')!="true") {
 					?>
 					<!--HEADER WIDGET-->
+					<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
 					<div class="header-widget">
 						<?php get_sidebar( 'header' ); ?>
 					</div>
