@@ -62,10 +62,9 @@
 			<div class="header-widget">
 
 				<ul class="affiliates">
-					<li><a href="http://www.superyachtuk.com/" target="_blank"><img src="/wp-content/uploads/2014/05/13246.png"/></a></li>
-					<li><a href="http://www.imci.org/" target="_blank"><img src="/wp-content/uploads/2014/05/13638.jpg"/></a></li>
-					<li><a href="http://www.britishmarine.co.uk/" target="_blank"><img src="/wp-content/uploads/2014/05/13242.png"/></a></li>
-					<li><a href="http://www.britishmarine.co.uk/" target="_blank"><img src="/wp-content/uploads/2014/05/13238.png"/></a></li>
+					<li><a href="http://www.superyachtuk.com/" target="_blank"><img src="/wp-content/uploads/2014/06/superyacht.png"/></a></li>
+					<li><a href="http://www.britishmarine.co.uk/" target="_blank"><img src="/wp-content/uploads/2014/06/mta.png"/></a></li>
+					<li><a href="http://www.britishmarine.co.uk/" target="_blank"><img src="/wp-content/uploads/2014/06/bmf.png"/></a></li>
 				</ul>
 
 			</div>
