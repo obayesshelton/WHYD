@@ -62,8 +62,7 @@
 			<?php
 				if(get_option('arch_header_widget')!="true") {
 					?>
-					<!--HEADER WIDGET-->
-					<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+					<!--HEADER WIDGET-->					
 					<div class="header-widget">
 						<?php get_sidebar( 'header' ); ?>
 					</div>
