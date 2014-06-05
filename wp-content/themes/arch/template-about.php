@@ -12,7 +12,7 @@ Template Name: About
 			<?php get_theme_page_title(); ?>
 
 			<?php
-				if(get_option('arch_services_hide')!="true") {
+				//if(get_option('arch_services_hide')!="true") {
 					?>
 					<!--SERVICES-->
 					<div class="services">
@@ -22,10 +22,10 @@ Template Name: About
 									the_content();
 								endwhile;
 							endif;
-						?>			
+						?>
 					</div>
 					<?php
-				}
+				//}
 			?>
 
 			<?php
