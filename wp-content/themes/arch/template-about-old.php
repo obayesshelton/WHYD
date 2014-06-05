@@ -11,24 +11,18 @@ Template Name: About
 
 			<?php get_theme_page_title(); ?>
 
-			<?php
-				if(get_option('arch_services_hide')!="true") {
-					?>
-					<!--SERVICES-->
-					<div class="services">
+			<!--SERVICES-->
+			<div class="services">
 
-						<?php
-							if (have_posts()) :
-								while (have_posts()) : the_post();
-									the_content();
-								endwhile;
-							endif;
-						?>
+				<?php
+					if (have_posts()) :
+						while (have_posts()) : the_post();
+							the_content();
+						endwhile;
+					endif;
+				?>
 
-					</div>
-					<?php
-				}
-			?>
+			</div>
 
 			<?php
 				if(get_option('arch_members_hide')!="true") {
