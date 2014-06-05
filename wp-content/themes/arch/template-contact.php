@@ -1,7 +1,7 @@
 <?php
 /*
-Template Name: Contact	
-*/	
+Template Name: Contact
+*/
 ?>
 
 <?php get_header(); ?>
@@ -10,12 +10,16 @@ Template Name: Contact
 		<div class="page-content">
 
 			<?php get_theme_page_title(); ?>
-			
+
+			<div class="cpage clear" style="margn-bottom:50px;">
+				[contact-form-7 id="212" title="Untitled"]
+			</div>
+
 			<div class="cpage clear">
 
 				<!--CONTENT-->
 				<div class="contact-desc">
-					
+
 					<!--MAP-->
 					<div id="map"></div>
 
@@ -24,10 +28,10 @@ Template Name: Contact
 				<!--FORM-->
 				<div id="respond">
 					<?php
-						if (have_posts()) : 
-							while (have_posts()) : the_post(); 
-								the_content(); 								
-							endwhile; 
+						if (have_posts()) :
+							while (have_posts()) : the_post();
+								the_content();
+							endwhile;
 						endif;
 					?>
 				</div>
