@@ -1,7 +1,7 @@
 <?php
 /*
-Template Name: About	
-*/	
+Template Name: About
+*/
 ?>
 
 <?php get_header(); ?>
@@ -10,40 +10,19 @@ Template Name: About
 		<div class="page-content">
 
 			<?php get_theme_page_title(); ?>
-			
+
 			<?php
 				if(get_option('arch_services_hide')!="true") {
 					?>
-					<!--SERVICES-->		
+					<!--SERVICES-->
 					<div class="services">
-						<ul class="clear">
-							<?php
-								$services_order = get_option('arch_services_order');
-								$services_orderby = get_option('arch_services_orderby');
-
-								$args = array( 'post_type' => 'services', 'orderby' => $services_orderby, 'order' => $services_order, 'posts_per_page' => get_option('arch_num_services') );	
-								$wp_query = new WP_Query( $args );	
-								
-								for($i = 1; $wp_query->have_posts(); $i++) { 							
-									$wp_query->the_post();			
-									$columns = 3;	
-									$class = '';
-									$class .= ($i % $columns == 0) ? ' last' : '';
-									?>
-									<li id="post-<?php the_ID(); ?>" <?php post_class($class); ?>>
-										<?php
-											if ( has_post_thumbnail() ) {
-												the_post_thumbnail('services-thumb', array('title' => ''.get_the_title().''));
-											}
-										?>
-										<h3><?php the_title(); ?></h3>
-										<?php the_excerpt(); ?>
-									</li>
-									<?php
-								};
-								wp_reset_query();	
-							?>
-						</ul>				
+						<?php
+							if (have_posts()) :
+								while (have_posts()) : the_post();
+									the_content();
+								endwhile;
+							endif;
+						?>			
 					</div>
 					<?php
 				}
@@ -52,7 +31,7 @@ Template Name: About
 			<?php
 				if(get_option('arch_members_hide')!="true") {
 					?>
-					<!--OUR TEAM-->		
+					<!--OUR TEAM-->
 					<div class="team">
 						<h2 class="ptitle"><?php if(get_option('arch_member_header')!="") { echo get_option('arch_member_header'); } else { _e( 'Who is behind Arch', ENGINE_THEME_NAME ); } ?></h2>
 						<div class="team-list clear">
@@ -60,12 +39,12 @@ Template Name: About
 								$member_order = get_option('arch_member_order');
 								$member_orderby = get_option('arch_member_orderby');
 
-								$args = array( 'post_type' => 'ourteam', 'orderby' => $member_orderby, 'order' => $member_order, 'posts_per_page' => get_option('arch_num_member') );			
-								$wp_query = new WP_Query( $args );	
-								
-								for($i = 1; $wp_query->have_posts(); $i++) { 							
-									$wp_query->the_post();			
-									$columns = 3;	
+								$args = array( 'post_type' => 'ourteam', 'orderby' => $member_orderby, 'order' => $member_order, 'posts_per_page' => get_option('arch_num_member') );
+								$wp_query = new WP_Query( $args );
+
+								for($i = 1; $wp_query->have_posts(); $i++) {
+									$wp_query->the_post();
+									$columns = 3;
 									$class = 'member';
 									$class .= ($i % $columns == 0) ? ' last' : '';
 									?>
@@ -153,7 +132,7 @@ Template Name: About
 												}
 											?>
 										</div>
-										
+
 										<div class="mdetails">
 											<h3><?php the_title(); ?></h3>
 											<span><?php echo get_post_meta( $post->ID, "position", true ); ?>	</span>
@@ -161,9 +140,9 @@ Template Name: About
 									</div>
 									<?php
 								};
-								wp_reset_query();	
+								wp_reset_query();
 							?>
-						</div>				
+						</div>
 					</div>
 					<?php
 				}
