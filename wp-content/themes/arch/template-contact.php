@@ -11,10 +11,6 @@ Template Name: Contact
 
 			<?php get_theme_page_title(); ?>
 
-			<div class="cpage clear" style="margn-bottom:50px;">
-				[contact-form-7 id="212" title="Untitled"]
-			</div>
-
 			<div class="cpage clear">
 
 				<!--CONTENT-->
