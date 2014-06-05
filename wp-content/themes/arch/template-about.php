@@ -15,7 +15,7 @@ Template Name: About
 				//if(get_option('arch_services_hide')!="true") {
 					?>
 					<!--SERVICES-->
-					<div class="services">
+					<div class="team-list clear">
 						<?php
 							if (have_posts()) :
 								while (have_posts()) : the_post();
