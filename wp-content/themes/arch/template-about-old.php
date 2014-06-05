@@ -16,34 +16,15 @@ Template Name: About
 					?>
 					<!--SERVICES-->
 					<div class="services">
-						<ul class="clear">
-							<?php
-								$services_order = get_option('arch_services_order');
-								$services_orderby = get_option('arch_services_orderby');
 
-								$args = array( 'post_type' => 'services', 'orderby' => $services_orderby, 'order' => $services_order, 'posts_per_page' => get_option('arch_num_services') );
-								$wp_query = new WP_Query( $args );
+						<?php
+							if (have_posts()) :
+								while (have_posts()) : the_post();
+									the_content();
+								endwhile;
+							endif;
+						?>
 
-								for($i = 1; $wp_query->have_posts(); $i++) {
-									$wp_query->the_post();
-									$columns = 3;
-									$class = '';
-									$class .= ($i % $columns == 0) ? ' last' : '';
-									?>
-									<li id="post-<?php the_ID(); ?>" <?php post_class($class); ?>>
-										<?php
-											if ( has_post_thumbnail() ) {
-												the_post_thumbnail('services-thumb', array('title' => ''.get_the_title().''));
-											}
-										?>
-										<h3><?php the_title(); ?></h3>
-										<?php the_excerpt(); ?>
-									</li>
-									<?php
-								};
-								wp_reset_query();
-							?>
-						</ul>
 					</div>
 					<?php
 				}
